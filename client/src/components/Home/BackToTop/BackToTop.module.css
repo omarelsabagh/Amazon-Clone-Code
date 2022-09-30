@@ -1,0 +1,15 @@
+.handlebacktop {
+  background-color: #485769;
+  text-align: center;
+  padding: 10px;
+  cursor: pointer;
+}
+.handlebacktop span {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.handlebacktop:hover {
+  background-color: #3f4c5c;
+}/*# sourceMappingURL=BackToTop.module.css.map */

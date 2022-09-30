@@ -1,0 +1,67 @@
+.menuhandle
+{
+    position: fixed;
+    height: 0px;
+    width: 250px;
+   background-color: #FFFFFF;
+    z-index: 9999;
+    right: 5.5%;
+    top: 6%;
+    transition: .3s;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    a{
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        font-weight: bold;
+    }
+    a:hover{
+        color: #d4840d;
+        
+    }
+}
+.headerhandle
+{
+    background-color: #232F3E;
+    padding: 12px;
+    color: white;
+    text-align: start;
+    font-weight: 500;
+    font-size: 20px;
+    a{
+        color: white;
+        text-decoration: none;
+    }
+    a:hover{
+        color: #d4840d;
+        
+    }
+}
+
+.firstdivhandle{
+   
+    text-align: start;
+    box-sizing: border-box;
+   
+    h4{
+        padding: 12px 0 0 12px;
+        font-size: 18px;
+    }
+    span{
+        line-height: 40px;
+        font-size: 16px;
+        padding: 12px;
+        
+      
+    }
+    div:hover{
+        background-color: #EAEDED;
+        cursor: pointer;
+    }
+}
+.addedclass{
+height: 230px;
+}
+.addedclass2{
+    height: 0px;
+    }

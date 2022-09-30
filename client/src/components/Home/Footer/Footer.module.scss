@@ -1,0 +1,77 @@
+
+
+
+.footerhandle
+{
+    background-color: #232F3E;
+    color: white;
+    padding: 20px;
+    
+    h5{
+        font-size: 16px;
+    }
+    p{
+        font-size: 16px;
+        font-weight: 400;
+        cursor: pointer;
+    }
+    p:hover{
+        text-decoration: underline;
+    }
+    img{
+        width: 5%;
+        cursor: pointer;
+    }
+    a{
+        color: white;
+        text-decoration: none;
+        margin-left: 5px;
+        margin-right: 5px;
+        font-size: 12px;
+        
+        
+    }
+    a:hover{
+        text-decoration: underline;
+    }
+    h3{
+        font-size: 13px;
+        font-weight: 400;
+       
+    }
+}
+
+.trymargin{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+
+.hline
+{
+    height: 1px;
+    width: 100%;
+    background-color: gray;
+    
+}
+
+.paddinghandle{
+    padding: 5px !important;
+}
+
+@media only screen and (max-width: 600px) {
+ 
+      .classforresponsive{
+        display: none !important;
+      }
+      .footerhandle
+      {
+       
+          img{
+              width: 20%;
+              cursor: pointer;
+          }
+      
+      }
+    }
+    

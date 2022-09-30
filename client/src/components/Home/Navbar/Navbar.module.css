@@ -1,0 +1,102 @@
+.mynav {
+  background-color: #131921;
+  color: white;
+  display: flex;
+}
+.mynav a {
+  color: white !important;
+  text-decoration: none;
+  font-weight: 500;
+  cursor: pointer;
+}
+.mynav a:hover {
+  color: #f3a847 !important;
+}
+.mynav li {
+  list-style: none;
+}
+
+p {
+  padding: 0 !important;
+  margin: 0 !important;
+  font-size: 12px;
+}
+
+.navbarlogo {
+  width: 12%;
+}
+
+.classforborder {
+  border: rgba(255, 255, 255, 0) solid 1px;
+  border-radius: 2px;
+  cursor: pointer;
+  padding: 0.4rem;
+}
+
+.classforborder:hover {
+  border: rgb(255, 255, 255) solid 1px;
+}
+
+.classforborder h5 {
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+
+.custominput {
+  width: 650px;
+  height: 40px;
+  border: none;
+  outline: none;
+}
+
+.custombtn {
+  border: none;
+  outline: none;
+  height: 40px;
+  background-color: #f3a847;
+  border-radius: 0 10px 10px 0 !important;
+  width: 50px;
+}
+
+.custombtn:hover {
+  background-color: #dd9940;
+}
+
+.customselect {
+  border: none;
+  outline: none;
+  height: 40px;
+  background-color: #f0eaea;
+  border-radius: 10px 0 0 10px !important;
+  width: 50px;
+  cursor: pointer;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .navbarlogo {
+    width: 25%;
+  }
+  .handleplace {
+    display: none;
+  }
+  .custominput {
+    width: 100px;
+  }
+  .classforresponsive {
+    display: none !important;
+  }
+  .classforresponsive2 {
+    margin-right: 20px !important;
+  }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* Medium devices (landscape tablets, 768px and up) */
+/* Large devices (laptops/desktops, 992px and up) */
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .classforresponsive2 {
+    display: none !important;
+  }
+}/*# sourceMappingURL=Navbar.module.css.map */

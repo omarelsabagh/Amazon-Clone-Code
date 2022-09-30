@@ -1,0 +1,31 @@
+
+.carouselhandle
+{ 
+    margin-top: -350px;
+}
+
+.maincarouselhandle{
+    width: 100%;
+    height: 60%;
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(252,165,165,0) 100%);
+    position: absolute;
+    bottom: 0;
+}
+
+.myslide{
+    top: 10%;
+    align-items: center;
+    height: 20%;
+    background-color: rgba($color: #000000, $alpha: .1);
+    width: 5%;
+    margin: 0px 10px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .carouselhandle
+    { 
+        margin-top: -50px;
+    }
+    }

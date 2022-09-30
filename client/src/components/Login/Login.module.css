@@ -1,0 +1,104 @@
+.imghandle {
+  width: 8%;
+}
+
+.maindivhandle {
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  width: 30%;
+  padding: 16px;
+}
+.maindivhandle h4 {
+  font-size: 28px;
+}
+.maindivhandle a {
+  text-decoration: none;
+}
+.maindivhandle a:hover {
+  text-decoration: underline;
+  color: #d4840d;
+}
+.maindivhandle input {
+  outline: #705206;
+}
+.maindivhandle label {
+  font-size: 12px;
+  font-weight: bold;
+}
+.maindivhandle button {
+  border-radius: 5px;
+  border: 1px solid gray;
+  outline: none;
+  background: rgb(239, 188, 59);
+  background: linear-gradient(0deg, rgb(239, 188, 59) 0%, rgb(252, 228, 165) 100%);
+}
+.maindivhandle button:hover {
+  background: rgb(207, 163, 50);
+  background: linear-gradient(0deg, rgb(197, 160, 65) 0%, rgb(252, 228, 165) 100%);
+}
+
+.newtohandle h5 {
+  font-size: 11px;
+  color: gray;
+  position: relative;
+}
+.newtohandle h5::after {
+  content: "";
+  height: 1px;
+  background-color: rgba(34, 34, 34, 0.2);
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  margin-left: 10px;
+}
+.newtohandle h5::before {
+  content: "";
+  height: 1px;
+  background-color: rgba(34, 34, 34, 0.2);
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  right: 100%;
+  margin-right: 10px;
+}
+
+.btnhandle {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  padding: 20px;
+  width: 50%;
+}
+.btnhandle button {
+  border-radius: 5px;
+  border: 1px solid gray;
+  background-color: #EDEFF1;
+  padding: 5px 60px;
+  font-size: 14px;
+}
+.btnhandle button:hover {
+  background-color: #d2d7db;
+}
+
+.lasthandle a {
+  margin: 5px;
+  font-size: 11px;
+  text-decoration: none;
+}
+.lasthandle a:hover {
+  text-decoration: underline;
+  color: #d4840d;
+}
+
+.finalhandle p {
+  font-size: 11px;
+}
+
+@media only screen and (max-width: 600px) {
+  .imghandle {
+    width: 23%;
+  }
+  .maindivhandle {
+    width: 100%;
+  }
+  .btnhandle {
+    width: 100%;
+  }
+}/*# sourceMappingURL=Login.module.css.map */

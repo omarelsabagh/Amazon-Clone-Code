@@ -1,0 +1,131 @@
+
+.backtohandle{
+  
+width: 15%;
+    
+    i{
+        font-size: 9px;
+        color: gray;
+    }
+    a{
+        font-size: 12px;
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    a:hover{
+        text-decoration: underline;
+        
+    }
+}
+
+.imghandle{
+
+    object-fit: fill;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    width: 100%;
+}
+.imgdivhandle{
+ 
+ height: 400px;
+
+ width: 30%;
+  
+}
+
+
+.thirddivhandle{
+
+width: 30%;
+
+
+ i{
+    color: #FFA41C;
+ }
+
+ h4{
+
+    color: gray;
+    font-size: 13px;
+ }
+ h5{
+    color: gray;
+    font-size: 13px;
+    span{
+        color: black;
+    }
+ }
+ th, td {
+    padding-left: 5px;
+    padding-right: 20px;
+  }
+}
+
+.handefourthdiv{
+    padding: 10px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+    display: flex;
+    flex-direction: column;
+    h6{ 
+        font-size: 20px;
+        color: #AE2E0E;
+    }
+
+    h4{
+        color: gray;
+        font-size: 13px;
+    }
+    h3{
+        font-size: 12px;
+    }
+    a{
+        color: #007185;
+        text-decoration: none;
+    }
+    a:hover{
+        color: #AE2E0E;;
+       
+    }
+    h2{
+        color: #0F7E0F;
+        font-size: 20px;
+        font-weight: 400;
+    }
+}
+.linethroughhandle{
+    text-decoration: line-through;
+}
+
+.blodtext{
+    font-weight: bold;
+}
+
+.inputhandle{
+  
+    outline: #AE2E0E;
+    width: 12%;
+}
+
+.btnhandle{
+    border-radius: 20px;
+    border: none;
+    padding: 5px;
+    font-size: small;
+
+    
+}
+.btn1{
+    background-color: #FFD814;
+}
+.btn1:hover{
+    background-color: #F7CA00;
+}
+
+.btn2{
+background-color: #FFA41C;
+margin-top: 7px;
+}
+
+.btn2:hover{
+    background-color: #FA8900;
+}

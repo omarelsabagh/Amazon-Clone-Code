@@ -1,0 +1,20 @@
+.mynav {
+  background-color: #232F3E;
+  color: white;
+  display: flex;
+  padding: 10px;
+}
+.mynav a {
+  color: white !important;
+  text-decoration: none;
+  font-weight: 400;
+}
+.mynav li {
+  list-style: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .classforresponsive {
+    display: none !important;
+  }
+}/*# sourceMappingURL=Navbar2.module.css.map */
